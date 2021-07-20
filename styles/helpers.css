@@ -1,3 +1,9 @@
+.spacer10 {
+    background-color: seashell;
+    height: 10px;
+    width: 100%;
+}
+
 .spacer60 {
     background-color: seashell;
     height: 60px;

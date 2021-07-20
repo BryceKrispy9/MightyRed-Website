@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch MightyRed</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Josefin+Slab:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/helpers.css">
+    <link rel="stylesheet" href="styles/skewed-header-watch.css">
+</head>
+<body>
+    <div class="skewed-header">
+        <div class="header-bg" style="background-image: url(images/skewed-headers/skewed-header-watch.jpg);"></div>
+
+        <div class="skewed-header-wrapper">
+            <div class="skewed-header-content">
+                <div class="heading-wrapper">
+                    <h1>About</h1>
+                </div>
+            </div>
+
+            <div class="links-wrapper">
+                <div class="nav-link">
+                    <a href="index.html">Home</a>
+                </div>
+
+                <div class="nav-link">
+                    <a href="about.html">About</a>
+                </div>
+
+                <div class="nav-link">
+                    <a href="socials.html">Socials</a>
+                </div>
+
+                <div class="nav-link">
+                    <a href="watch.html">Watch</a>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <div class="spacer10"></div>
+
+    <!-- Player without most recent video -->
+
+    <!-- <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+    
+    <div id="TwitchPlayer"></div>
+            
+    <script type="text/javascript">
+        var options = {
+            width: 1920,
+            height: 1080,
+            channel: "mightyred___",
+        };
+
+        var player = new Twitch.Player("TwitchPlayer", options);
+        player.setVolume(0.5);
+            </script> -->
+
+    <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+
+    <div id="TwitchPlayer"></div>
+
+    <script type="text/javascript">
+        var options = {
+        width: 1920,
+        height: 1080,
+        channel: "mightyred___",
+        video: "Most Recent",
+        collection: "Live",
+    };
+
+    var player = new Twitch.Player("TwitchPlayer", options);
+        player.setVolume(0.5);
+    </script>
+
+<div class="footer">
+    <div class="footer-image">
+        <img src="images/banners/Website Banner.png" alt="">
+    </div>
+
+    <div class="icon">
+        <a href="https://discord.gg/FtaTdFNYvK" target="_blank">
+            <i class="fab fa-discord"></i>
+        </a>
+    </div>
+
+    <div class="icon">
+        <a href="https://vm.tiktok.com/ZMdaomh1k/" target="_blank">
+            <i class="fab fa-tiktok"></i>
+        </a>
+    </div>
+
+    <div class="links-wrapper">
+        <div class="nav-link">
+            <a href="index.html">Home</a>
+        </div>
+
+        <div class="nav-link">
+            <a href="about.html">About</a>
+        </div>
+
+        <div class="nav-link">
+            <a href="socials.html">Socials</a>
+        </div>
+
+        <div class="nav-link">
+            <a href="watch.html">Watch</a>
+        </div>
+    </div>
+
+    <div class="icon">
+        <a href="https://twitter.com/mightyred__/status/1410293354697461764?s=21">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+
+    <div class="icon">
+        <a href="https://www.Instagram.com/mightyred___/">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+
+    <div class="copyright-wrapper">
+        &copy; 2021 MightyRed &#124; All rights reserved
+    </div>
+
+</body>
+</html>

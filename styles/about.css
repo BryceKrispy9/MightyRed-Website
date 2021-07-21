@@ -1,7 +1,8 @@
 .squares-wrapper {
     background-color: seashell;
+    font-family: 'Josefin Sans', sans-serif;
     display: flex;
-    justify-self: center;
+    justify-content: center;
 }
 
 .squares-wrapper > .squares {

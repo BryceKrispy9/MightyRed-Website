@@ -12,7 +12,7 @@
 }
 
 .footer > .footer-image img {
-    width: 270px;
+    width: 250px;
     height: 100%;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .footer > .social-media-icons {
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 5px;
     width: 200px;
     display: flex;

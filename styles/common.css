@@ -1,9 +1,9 @@
 body {
     margin: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Slab', sans-serif;
     background-color: seashell;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', serif;
+    font-family: 'Josefin Sans', sans-serif;
 }

@@ -1,6 +1,6 @@
 .squares-wrapper {
     background-color: seashell;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Slab', sans-serif;
     display: flex;
     justify-content: center;
 }
@@ -30,5 +30,6 @@
 }
 
 .square > .square-text-wrapper h1 {
+    font-family: 'Josefin Sans', sans-serif;
     color: black;
 }

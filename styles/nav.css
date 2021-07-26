@@ -1,6 +1,6 @@
 /* Common nav */
 .navigation-wrapper {
-    height: 200px;
+    height: 125px;
     background-color: #1C1C1C;
     color: #E31C25;
     display: flex;
@@ -45,7 +45,7 @@
 }
 
 .navigation-wrapper > .center-column > .banner-image img {
-    width: 430px;
+    width: 300px;
     height: 100%;
     margin-bottom: 50px
 }

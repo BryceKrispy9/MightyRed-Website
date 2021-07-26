@@ -1,0 +1,10 @@
+.index-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-banner img {
+    width: 100%;
+    height: 100%;
+}

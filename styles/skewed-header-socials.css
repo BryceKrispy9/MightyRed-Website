@@ -2,7 +2,7 @@
     position: relative;
     height: 250px;
     overflow: hidden;
-    background-color: seashell;
+    background-color: #1c1c1c;
 }
 
 .skewed-header > .header-bg {

@@ -30,7 +30,7 @@
 .skewed-header > .skewed-header-wrapper > .skewed-header-content {
     width: 1000px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 

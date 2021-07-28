@@ -1,5 +1,7 @@
 @media (max-width: 48em) {
+    /* Home page */
     .navigation-wrapper {
+        font-size: 1em;
         flex-direction: column;
         height: 100%;
     }
@@ -10,6 +12,10 @@
         margin-bottom: 15px;
     }
 
+    .navigation-wrapper > .left-column i {
+        font-size: 0.75em;
+    }
+
     .navigation-wrapper > .center-column {
         order: 1;
         width: 100%;
@@ -18,6 +24,85 @@
 
     .navigation-wrapper > .right-column {
         order: 3;
-        margin-top: 15px;
+        margin-top: -102px;
     }
+
+    .navigation-wrapper > .right-column i {
+        font-size: 0.75em;
+    }
+
+    .navigation-wrapper > .center-column > .banner-image img{
+        height: 150px;
+    }
+
+    .index-banner img {
+        height: 300px;
+    }
+
+    .footer {
+        font-size: 1em;
+    }
+
+    .footer i {
+        font-size: 0.75em;
+    }
+
+    /* About page */
+    .square {
+        grid-template-columns: 1fr !important;
+    }
+
+    .square > .square-text-wrapper {
+        order: 1;
+    }
+
+    .square > .img-wrapper {
+        order: 2;
+    }
+
+    .square > .img-wrapper img {
+        object-fit: scale-down !important;
+    }
+
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content {
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper {
+        flex-direction: column;
+    }
+
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper > .nav-link {
+        margin: 7.5px;
+    }
+
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper {
+        width: 225px !important;
+    }
+
+    .skewed-header > .header-bg {
+        background-size: 550px !important;
+    }
+
+    /* Social page */
+    .social-media-wrapper {
+        text-align: center;
+    }
+
+    .social-media-wrapper p {
+        margin: 50px;
+    }
+
+    .social-media-wrapper > .social-media-sites {
+        grid-template-columns: 1fr 1fr 1fr;
+        flex-direction: column;
+    }
+
+    .social-media-wrapper > .social-media-sites div {
+        margin-top: 25px;
+    }
+
+    /* Watch page */
 }

@@ -105,4 +105,8 @@
     }
 
     /* Watch page */
+    #TwitchPlayer {
+        height: 100%;
+        width: 100%;
+    }
 }
